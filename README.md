@@ -3,6 +3,8 @@ Aplicación de tareas en angular 13 consumiendo api de pruebas
 
 ![app](https://github.com/luismartinezo/TaskApp-Angular/blob/main/src/assets/app.jpg?raw=true)
 
+Enlace a la aplicacion en produccion: [TaskApp](https://covinoc-7aawfoht0-luismartinezo.vercel.app/)
+
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Servidor de Desarrollo
