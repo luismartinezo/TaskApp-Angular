@@ -27,13 +27,7 @@ export class DialogComponent implements OnInit {
       title: ['', Validators.required]
     });
   }
-  /* Date */
-  // date(e: { target: { value: string | number | Date; }; }) {
-  //   var convertDate = new Date(e.target.value).toISOString().substring(0, 10);
-  //   this.taskForm.get('createdAt').setValue(convertDate, {
-  //     onlyself: true,
-  //   });
-  // }
+  
   public errorHandling = (control: string, error: string) => {
     return this.taskForm.controls[control].hasError(error);
   }

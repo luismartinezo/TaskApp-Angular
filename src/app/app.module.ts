@@ -1,14 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { TaskFormComponent } from './Components/task-form/task-form.component';
 import { DialogComponent } from './Components/task-form/dialog/dialog.component';
 import { TaskListComponent } from './Components/task-list/task-list.component';
-import { TaskComponent } from './Components/task/task.component';
 import { NavComponent } from './Components/Shared/nav/nav.component';
 
 // Angular Material
@@ -34,13 +32,11 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     AppComponent,
     TaskFormComponent,
     TaskListComponent,
-    TaskComponent,
     NavComponent,
     DialogComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,

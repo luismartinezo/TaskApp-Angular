@@ -1,9 +1,11 @@
-.btn{
+.btn {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 20px;
 }
-.btn:focus+.btn, .btn:focus {
+
+.btn:focus+.btn,
+.btn:focus {
     color: #fff;
     background-color: #01CEB6;
     border-color: #01CEB6;

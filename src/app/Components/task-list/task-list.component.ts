@@ -26,7 +26,6 @@ export class TaskListComponent implements OnInit, AfterViewInit {
   getTask() {
     this.taskService.getTask()
       .subscribe((res) => {
-        // console.log(res[0].state);
         this.dataSource.data = res;
 
         for (let i = 0; i < this.dataSource.data.length; i++) {
@@ -38,11 +37,6 @@ export class TaskListComponent implements OnInit, AfterViewInit {
 
   deleteTask(id: number) {
     if (id != null || id == 0)
-      // if (confirm(`Seguro que desea eliminar el registro ${id}`)) {
-      //   this.taskService.deleteTask(id).subscribe((resp) => {
-      //     window.location.reload();
-      //   });
-      // }
       Swal.fire({
         title: `Seguro que desea eliminar el registro ${id}?`,
         showDenyButton: true,
