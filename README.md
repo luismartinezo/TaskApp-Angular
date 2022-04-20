@@ -1,15 +1,12 @@
 # APP TASK
-Aplicación de tareas en angular 13 consumiendo api de pruebas
+Aplicación de tareas, proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3. consumiendo api de pruebas. Enlace a la aplicacion en produccion: [TaskApp](https://covinoc-7aawfoht0-luismartinezo.vercel.app/)
 
 ![app](https://github.com/luismartinezo/TaskApp-Angular/blob/main/src/assets/app.jpg?raw=true)
 
-Enlace a la aplicacion en produccion: [TaskApp](https://covinoc-7aawfoht0-luismartinezo.vercel.app/)
-
-Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
 ## Servidor de Desarrollo
 
-Correr `ng serve` para levantar servidor dev. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
+Luego de descargar o clonar el respositorio correr en consola el comando `ng serve` o `npm start` para levantar servidor dev. Navega a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
 ## Andamiaje de código
 
