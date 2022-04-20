@@ -1,5 +1,7 @@
-# Covinoc
+# APP TASK
 Aplicación de tareas en angular 13 consumiendo api de pruebas
+
+![app](https://github.com/luismartinezo/TaskApp-Angular/blob/main/src/assets/app.png?raw=true)
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
