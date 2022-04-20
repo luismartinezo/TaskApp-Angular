@@ -1,0 +1,11 @@
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.btn:focus+.btn, .btn:focus {
+    color: #fff;
+    background-color: #01CEB6;
+    border-color: #01CEB6;
+    box-shadow: 0 0 0 0.25rem rgba(206, 209, 213, 0.5);
+}

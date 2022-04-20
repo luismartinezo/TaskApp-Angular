@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.example-card {
+  /* Layout Properties */
+  left: 0px;
+  width: 725;
+  height: 371px;
+  /* UI Properties */
+  background: #01CEB6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  color: white;
+}
+.btn{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+}
+.btn:focus+.btn, .btn:focus {
+  color: #fff;
+  background-color: #01CEB6;
+  border-color: #01CEB6;
+  box-shadow: 0 0 0 0.25rem rgba(206, 209, 213, 0.5);
+}

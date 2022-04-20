@@ -1,0 +1,13 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .nav{
+    top: 93px;
+left: 0px;
+width: 1878px;
+height: 198px;
+background: #01CEB6 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+  }
